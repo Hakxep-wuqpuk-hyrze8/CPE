@@ -10,13 +10,6 @@ const int mxN = 1005;
 #define S second
 #define all(x) (x).begin(), (x).end()
 
-/* int joe (int n, int k) {
-    if (n == 1)
-        return 0;
-
-    return (joe(n-1, k) + k) % n;
-} */
-
 bool isPrime[mxN];
 vector<int> prime[mxN];
 

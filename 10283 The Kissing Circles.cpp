@@ -21,10 +21,10 @@ int main()
 
         double r = val * R / ( val + 1);
         cout << fixed << setprecision(10) << r << ' ';
-        double rangle = 90 - 180 / K; // ®°§Î¨¤«×
-        double cir = PI * r * r * (rangle / 360);  // ®°§Î­±¿n
-        double e = sqrt( (R-r) * (R-r) - r * r);// ¥t¤@­ÓÃäªø
-        double blue = (e * r / 2 - cir) * 2 * K; // ÂÅ¦â
+        double rangle = 90 - 180 / K; // æ‰‡å½¢è§’åº¦
+        double cir = PI * r * r * (rangle / 360);  // æ‰‡å½¢é¢ç©
+        double e = sqrt( (R-r) * (R-r) - r * r);// å¦ä¸€å€‹é‚Šé•·
+        double blue = (e * r / 2 - cir) * 2 * K; // è—è‰²
         cout << fixed << setprecision(10) << blue << ' ';
 
         double green = PI * R * R - blue - PI * r * r * K;

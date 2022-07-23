@@ -2,6 +2,7 @@
 
 
 ## Segment tree
+12532 - Interval Product
 11235 - Frequent values.cpp
 
 ## KMP algorithm 
